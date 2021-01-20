@@ -1,0 +1,5 @@
+<nav>
+  {{ range .Site.Menus.main.ByWeight -}}
+    {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+  {{- end }}
+</nav>

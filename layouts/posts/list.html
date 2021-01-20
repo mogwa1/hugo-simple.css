@@ -1,0 +1,8 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
+    <p><a href="{{ .Permalink }}">{{ .Title }}</a><br>
+    {{ .Description }}<br>
+  📅 {{ .Date.Format "2 Jan 2006" }}</p>
+  {{- end }}
+{{ end }}
