@@ -1,6 +1,6 @@
 baseURL = "https://hugo.simplecss.org"
 languageCode = "en-us"
-title = "This is my Hugo website that is running Simple.css"
+title = "Simple Hugo - A Hugo site powered by Simple.css"
 
 
 [permalinks]
@@ -10,16 +10,3 @@ title = "This is my Hugo website that is running Simple.css"
   [markup.highlight]
     style = "monokailight"
 
-[privacy]
-  [privacy.disqus]
-    disable = true
-  [privacy.googleAnalytics]
-    disable = true
-  [privacy.instagram]
-    disable = true
-  [privacy.twitter]
-    disable = true
-  [privacy.vimeo]
-    disable = true
-  [privacy.youtube]
-    disable = true

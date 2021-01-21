@@ -5,13 +5,19 @@
   weight = 10
 
 [[main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts"
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog"
   weight = 20
+
+[[main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+  weight = 30
 
 [[main]]
   identifier = "contact"
   name = "Contact"
   url = "/contact"
-  weight = 30
+  weight = 40

@@ -1,11 +1,11 @@
 ---
-title: "Title"
-description: "Description"
+title: "Simple Hugo {}"
+description: "A Hugo site powered by Simple.css"
 date: 2021-01-20T21:05:38+01:00
 ---
 
-Dit is de startpagina.
+# Welcome to Simple Hugo
 
-Ik heb geen idee wat er eigenlijk mis is.
+This is a simple webpage that has been handbuilt by Myself using the Hugo static site generator and [Simple.css](https://simplecss.org).
 
-Waarom niet???
+Please feel free to take a look around. If you're interested, you can find the source code for this site [on GitHub](TBD).
