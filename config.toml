@@ -1,6 +1,6 @@
 baseURL = "https://hugo.simplecss.org"
 languageCode = "en-us"
-title = "Simple Hugo - A Hugo site powered by Simple.css"
+title = "Simple Hugo"
 
 [menu]
   [[menu.main]]
