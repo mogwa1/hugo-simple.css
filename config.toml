@@ -30,6 +30,15 @@ title = "Simple Hugo"
 [permalinks]
   posts = "/:title/"
 
+[outputs]
+  home = [ "RSS", "HTML"]
+  section  = ["HTML"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "feed"
+
 [markup]
   [markup.highlight]
     style = "monokailight"
