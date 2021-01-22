@@ -1,4 +1,4 @@
-baseURL = "https://hugo.simplecss.org"
+baseURL = "https://mydomain.org"
 languageCode = "en-us"
 title = "Simple Hugo"
 
