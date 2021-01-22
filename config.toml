@@ -37,7 +37,7 @@ title = "Simple Hugo"
 [outputFormats]
   [outputFormats.RSS]
     mediatype = "application/rss"
-    baseName = "feed"
+    baseName = "rss"
 
 [markup]
   [markup.highlight]
